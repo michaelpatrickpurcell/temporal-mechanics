@@ -1,4 +1,4 @@
-# temporal-mechanics
+# Temporal Mechanics
 
 When things go awry with someone's car, they call their mechanic.
 
