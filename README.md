@@ -19,4 +19,5 @@ Characters send messages from the future back to their past selves using a _Tach
 These devices are rare, expensive, and incredibly energy hungry.
 A tachyonic antitelephone can only be used to send messages to a past version of itself.
 As such, no messages can be sent to a time before the first tachyonic antitelephone was created.
-
+Furthermore, any such messages are necessarily short.
+Most systems limit messages to no more than 256 characters.
