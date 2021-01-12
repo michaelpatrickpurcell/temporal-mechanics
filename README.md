@@ -12,4 +12,11 @@ This message describes a series of events that occured during a job that they di
 
 The second phase is set in the present.
 In this phase, the characters receive the message sent by their future selves.
-Their job is to ensure that the events described in the message occur. 
+Their job is to ensure that the events described in the message occur.
+
+## Technobabble
+Characters send messages from the future back to their past selves using a _Tachyonic Antitelephone_. 
+These devices are rare, expensive, and incredibly energy hungry.
+A tachyonic antitelephone can only be used to send messages to a past version of itself.
+As such, no messages can be sent to a time before the first tachyonic antitelephone was created.
+
