@@ -84,7 +84,7 @@ model.predict_proba([[None, None, None, None]])
 # A  B
 #  \/
 #  C
-n = 4
+n = 3
 t = s - 3
 distA = pm.DiscreteDistribution({"F": max_cdf[n - 1, t], "S": 1 - max_cdf[n - 1, t]})
 distB = pm.DiscreteDistribution({"F": max_cdf[n - 1, t], "S": 1 - max_cdf[n - 1, t]})
