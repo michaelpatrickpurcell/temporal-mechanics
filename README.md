@@ -90,7 +90,7 @@ The players describe a sequence of significant events by creating a _story tree_
    - Each scene can have at most three child encounters.
 
 ## Depth
-The climactic scene always has depth zero.
+The climactic scene always has a depth of _d = 0_.
 The depth of other scenes is the number of edges between that scene and the climactic scene.
 
 #### Example
@@ -122,7 +122,7 @@ To make a check, the players will:
    Otherwise, the players _fail_ at the check and their characters do not accomplish their goal.
 
 #### Example
-   Suppose the players are making a check to determine the outcome of a scene that has a depth of one.
+   Suppose the players are making a check to determine the outcome of a scene that has a depth of _d = 1_.
    The difficulty rating of the scene is _3_.
    Suppose further that the dice pool contains five dice.
    When rolled, these dice yield the values {`3`, `6`, `5`, `1`, `6`}.
