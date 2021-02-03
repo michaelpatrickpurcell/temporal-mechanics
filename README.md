@@ -3,127 +3,192 @@
 When things go awry with someone's car, they call their mechanic.  
 When things go awry with the timeline, they call you!
 
-## Structure
-Each adventure takes place in two phases.
-
-The first phase is set in the future.
-In this phase the characters are preparing a message to send back to their former selves.
-This message describes a series of events that occured during a job that they did many years ago.
-
-The second phase is set in the present.
-In this phase, the characters receive the message sent by their future selves.
-Their job is to ensure that the events described in the message occur.
+---
 
 ## Technobabble
-Characters send messages from the future back to their past selves using a _Tachyonic Antitelephone_.
-These devices are rare, expensive, and incredibly energy hungry.
-A tachyonic antitelephone can only be used to send messages to a past version of itself.
-As such, no messages can be sent to a time before the first tachyonic antitelephone was created.
-Furthermore, any such messages are necessarily short.
-Most systems limit messages to no more than 256 characters.
+Any good work of science fiction needs a modicum of technobabble to grease the narrative wheels a bit and facilitate the suspension of disbelief required by the genre.
+   1. __Tachyonic Antitelephone:__
+   Characters send messages from the future back to their past selves using a _Tachyonic Antitelephone_.
+   A tachyonic antitelephone can only be used to send messages to a past version of itself.
+   As such, no messages can be sent to a time before the first tachyonic antitelephone was created.
+   These devices are rare, expensive, and incredibly energy hungry.
+   Therefore, any messages sent by an tachyonic antitelephone are necessarily short.
 
-# Players
-Temporal Mechanics is a game for three or more players.
-All of the players have equal roles; there is no game master.
+   2. __Temporal Inertia:__
+   The timeline is robust.
+   Altering the course of history is difficult and fraught with peril.
+   The more significant an event is the more difficult it is to affect and the more serious the consequences for failure.
+   This property is known as _temporal inertia_.  
+
+---
 
 ## Characters
 There are two kinds of characters.
-_Player Characters_ (PCs) are the heroes of the story.
-Each PC is controlled by a single player throughout the game.
-_Non-Player Characers_ (NPCs) are everybody else.
-The NPCs can be controlled by any of the players as the need arises during the game.
+   1. __Player Characters (PCs):__ The PCs are the heroes of the story.
+   Each PC is controlled by a single player throughout the game.
 
-## Game Play
-There are two phases to each session.
-The first phase is set in the future whilst the second phase is set in the present.
-During the first phase the players will describe a sequence of events.
-During the second phase, the players will guide their characters through that sequence of events.
+   2. __Non-Player Characters (NPCs):__ The NPCs are everybody else.
+   NPCs can be controlled by any of the players as the need arises during the game.
 
-#### Story Tree
+## Traits
+Characters are described by a set of _traits_.
+A trait is simply an aspect that is assigned to a player character.
+Five traits are assigned to each PC during character creation.
+Each character should be assigned one trait from each of the following categories:
+   - __Occupation:__ An aspect that describes a character's profession, hobbies, or other interests.
+   This aspect should be how the character answers the question "What do you do?"
+   - __Physical or Mental Characteristic:__ An aspect that describes a character's body and mind.
+   Are they a genius?
+   Are they clumsy?
+   Are they particularly strong?
+   This aspect is a chance to capture that kind of detail.
+   - __Psychological Characteristic:__ An aspect that describes a character's personality.
+   These characteristics could be beneficial or detrimental; the best are a little bit of both.
+   - __Relationship:__ An aspect that describes a character's connection with another character.
+   If the other character is an NPC, then they should feature prominently in the game's story.
+   If the other character is a PC, then the game's story should test the relationship somehow.
+   - __Affiliation:__ An aspect that describes a character's connection with an organisation.
+   Such an organisation should be a prominent feature of the game's story.
+   Affiliations provide a nice way to paint the game's setting with broad strokes and really leverage the power of genre tropes to full advantage.
+
+---
+
+## Acts
+Each adventure is subdivided into three acts:
+   1. __Setup:__
+      The first act is set in the future.
+      In this act the characters prepare a message to send back to their former selves.
+      This message describes a series of events that occurred many years ago.
+
+   2. __Confrontation:__
+      The second act is set in the present.
+      In this act, the characters receive the message sent by their future selves.
+      Their job is to ensure that the events described in the message occur.
+
+   3. __Resolution:__
+      The third act is again set in the future.
+      In this act, the characters learn the consequences of their meddling with the timeline.
+
+## Scenes
+Each scene is subdivided into three phases:
+   1. __Investigate:__ In this phase, the characters explore the scene.
+   The players identify/assign aspects to the people/places/things that their characters encounter during this phase.
+
+   2. __Influence:__ In this phase, the characters attempt to influence the outcome of the scene.
+   The players assemble a dice pool, roll the dice, and compare the result of the roll to the encounter's difficulty rating.
+
+   3. __Interpret:__ In this phase, the characters find out what happened as a result of their actions.
+   The players describe the narrative consequences of the outcome of the encounter's influence roll.
+
+## Time Limits
+   - Act 2 consists off no more than eight scenes.
+   - Each scene is played out in ten minutes of real time.
+
+## Story Tree
 The players describe a sequence of significant events by creating a _story tree_.
-
    - Story trees have a maximum depth of three.
-   - Each encounter can have at most three child encounters.
+   - Each scene can have at most three child encounters.
 
-#### Time Limits
-Each encounter is played out in ten minutes of real time.
+## Depth
+The climactic scene always has depth zero.
+The depth of other scenes is the number of edges between that scene and the climactic scene.
+
+#### Example
+Add an example!
+
+---
 
 ## Checks
-A _check_ is used to determine the outcome of an encounter.
+A _check_ is used to determine the outcome of a scene.
 To make a check, the players will:
-   1. Compute the check's difficulty rating.
-   2. Assemble a dice pool.
-   3. Roll the dice.
-   4. Determine the result of their roll.
-   5. Compare the result of their roll to the check's difficulty rating.
+   1. [Compute the check's difficulty rating](#compute-the-checks-difficulty-rating).
+   2. [Assemble a dice pool](#assemble-a-dice-pool).
+   3. [Roll the dice](#roll-the-dice).
+   4. [Determine the result of the roll](#determine-the-result-of-the-roll).
+   5. [Compare the result of the roll to the check's difficulty rating](#compare-the-result-of-the-roll-to-the-checks-difficulty-rating).
 
-If the result of the players' roll exceeds or meets the check's difficulty, then they succeed at the check and their characters accomplish their goal.
-Otherwise, the players fail at the check and their characters do not accomplish their goal.
-
-#### Compute the Check's Difficulty Rating
+### Compute the Check's Difficulty Rating
 Each check has an associated _difficulty rating_.
-The difficulty rating of a check depends on the _challenge rating_ of the encounter and on the outcomes of earlier encounters.
-In general, the challenge rating of an encounter with depth $d$ is $10 - 3d$.
-That is:
-   - Encounters with depth zero (i.e. the climactic encounter) have a challenge rating of 10.
-   - Encounters with depth one have a challenge rating of 7.
-   - Encounters with depth two have a challenge rating of 4.
-   - Encounters with depth three have a challenge rating of 1.
+The difficulty rating of a check depends on the depth of the scene.
+The difficulty rating of an scene with depth $d$ is $4 - d$.
 
-The difficulty rating for a check also depends on the outcomes of earlier encounters.
-In general, the difficulty rating for a check made to resolve an encounter with depth $d$ is decreased by $(3-d)$ for every child encounter that was resolved successfully.
+#### Example
+   - The climactic scene has a difficulty rating of 4.
+   - Scenes with depth one have a difficulty rating of 3.
+   - Scenes with depth two have a difficulty rating of 2.
+   - Scenes with depth three have a difficulty rating of 1.
 
-##### Example
-The climactic encounter always has depth zero.
-Therefore, the difficulty of a check made to resolve the climactic encounter is reduced by three for each child encounter that was resolved successfully.
-Suppose that two such child encounters were resolved successfully.
-The difficulty rating will be decreased by three for each such child encounter.
-Then the difficulty rating for the climactic encounter would be $10 - 2*3 = 4$.
-
-##### Example
-Consider an encounter with depth one.
-Suppose that one of that encounters child encounters had been resolved successfully.
-The difficulty rating for that encounter would be $7 - 2$ = 5.
-
-#### Assemble a Dice Pool
-A dice pool is made up of one or more ten-sided dice (d10s).
+### Assemble a Dice Pool
+A dice pool is made up of one or more six-sided dice (d6s).
 The number of dice in the dice pool depends on both the characters involved, those characters' actions, and the environment.
 
-#### Aspect matching
-Characters and environments both have aspects.
+Characters and environments both have _aspects_.
 Character aspects are generally created before the encounter begins and describe who the characters are and what they can do.
-Environment aspects are generally created during the encounter and describe the people, places, and things that the characters can interact with during that encounter.
+Environment aspects are generally created during an encounter and describe the people, places, and things that the characters interact with during that encounter.
 
-At the end of the scene, make two lists.
-One list consists of all of the character aspects.
-The other list consists of the environment aspects.
-Add one die to the dice pool for each aspect in the environment list that _matches_ an aspect in the character list.
+At the end of each scene, make two lists.
+One list consists of all of the _character aspects_.
+The other list consists of the _environment aspects_ relevant to the scene.
+Add one die to the dice pool for each relevant environment aspect that _matches_ a character aspect.
 Two aspects are considered a match if the characters could use the interplay between them to manipulate the encounter to their advantage.
 
-##### Example
+#### Example
 Suppose an NPC who needs to be prevented from catching a flight has the aspect "Argumentative".
-In this case, "Argumentative" itself might be the best match that could appear in the characters' aspect list. The NPC could be drawn into an argument with the PCs or even provoked into doing something that would get them kicked off of the flight.
+In this case, "Argumentative" itself might be the best match that could appear in the characters' aspect list.
+The NPC could be drawn into an argument with the PCs or even provoked into doing something that would get them kicked off of the flight.
 
-If instead the NPC had the the aspect "Meek", then character aspects like "Aggressive", "Demanding", or even "Angry" might be appropriate matches. The NPC could be simply intimidated by the PCs and coerced into doing what the PCs want them to do.
+If instead the NPC had the the aspect "Meek", then character aspects like "Aggressive", "Demanding", or even "Angry" might be appropriate matches.
+The NPC could be simply intimidated by the PCs and coerced into doing what the PCs want them to do.
 
-For a more lighthearted variant on this idea, consider the character aspects "Fumbling Fool" or "Smarter than They Look".
-Either of these could be a match for an NPC's "Meek" aspect if the PCs could arrange for the foolish character to be one step ahead of the NPC as they try to make their way through the airport.
-At every step, the foolish PC slows things down to the point that the NPC will miss their flight if they don't take some kind of assertive action.
-Of course, the "Meek" NPC will be reluctant to do so.  
+### Roll the Dice
+The dice in the dice pool are _exploding dice_.
+That is, for every die that yields a value of `6` one additional die is added to the dice pool and rolled.
+The values of all the rolls contribute to the result of the check.
 
-##### Commitment scheme (Taboo):
-Each player secretly writes down an event that the characters controlled by other players could take that would affect the outcome of an encounter.
-At the end of the encounter, these secret events are revealed.
-One die is added to the dice pool for each secret event that occurred during the encounter.
-Players are not allowed to explicitly say what events they wrote down. Instead these secret events should be implicit in the actions that they characters take during the encounter.
-
-#### Roll the Dice
-Not much to say here.  Roll dem bones!
-
-#### Determine the Result of the Roll
-The result of a roll is the largest value shown on the rolled dice.
-Note that a standard d10 has faces numbered $0,1,\ldots,9$.
-As such, the result of a roll is always less than 10.
+#### Example
+Suppose the dice pool contains five dice.
+When rolled, these dice yield the values {`3`, `6`, `5`, `1`, `6`}.
+Two additional dice are added to the pool.
+When rolled, these dice yield the values {`2`,`6`}.
+One additional die is added to the pool.
+When rolled, this die yields a result of {`4`}.
+In total, this roll yields the values {`3`, `6`, `5`, `1`, `6`, `2`, `6`, `4`}.
 
 
-#### Compare the Result to the Check's Difficulty Rating
+### Determine the Result of the Roll
+Any die that yields a value of `1`, `2`, or `3` is a _miss_.
+Any die that yields a value of `4`, `5`, or `6` is a _hit_.
+The result of a roll is the total number of hits.
+
+#### Example
+Suppose a roll yields the values {`3`, `6`, `5`, `1`, `6`, `2`, `6`, `4`}.
+The result of this roll would be five hits.
+
+###### Unicode dice symbols
+&#9856;
+&#9857;
+&#9858;
+&#9859;
+&#9860;
+&#9861;
+
+### Compare the Result of the Roll to the Check's Difficulty Rating
+If the result of the players' roll exceeds or meets the check's difficulty, then they _succeed_ at the check and their characters accomplish their goal.
+Otherwise, the players _fail_ at the check and their characters do not accomplish their goal.
+
+#### Example
+Suppose the difficulty rating of a check is three and that the result of the roll was five hits.  The players would succeed at the check.
+
+
+<!-- #### Example
+```mermaid
+graph BT;
+  n0(Destroy the Death Star: 4);
+  n0 ---- n1(Engage the enemy fighters: 3);
+  n0 ----- n2(Find a critical weakness: 3);
+           n2 --- n4(Rescue Princess Leia: 2);
+           n2 ---- n5(Deliver the schematics to the rebels: 2);
+                   n5 ---- n7(Find Obi-Wan Kenobi: 1);
+  n0 --- n3(Use The Force: 3);
+         n3 ------- n6(Train to become a Jedi: 2);
+``` -->
