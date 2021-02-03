@@ -74,8 +74,8 @@ Each scene is subdivided into three phases:
    1. __Investigate:__ In this phase, the characters explore the scene.
    The players identify/assign aspects to the people/places/things that their characters encounter during this phase.
 
-   2. __Influence:__ In this phase, the characters attempt to influence the outcome of the scene.
-   The players assemble a dice pool, roll the dice, and compare the result of the roll to the encounter's difficulty rating.
+   2. __Influence:__ In this phase, the characters attempt to alter the timeline.
+   The players make a check to determine the outcome of the scene.
 
    3. __Interpret:__ In this phase, the characters find out what happened as a result of their actions.
    The players describe the narrative consequences of the outcome of the encounter's influence roll.
@@ -98,25 +98,57 @@ Add an example!
 
 ---
 
+
+
 ## Checks
 A _check_ is used to determine the outcome of a scene.
 To make a check, the players will:
-   1. [Compute the check's difficulty rating](#compute-the-checks-difficulty-rating).
-   2. [Assemble a dice pool](#assemble-a-dice-pool).
-   3. [Roll the dice](#roll-the-dice).
-   4. [Determine the result of the roll](#determine-the-result-of-the-roll).
-   5. [Compare the result of the roll to the check's difficulty rating](#compare-the-result-of-the-roll-to-the-checks-difficulty-rating).
-
-### Compute the Check's Difficulty Rating
-Each check has an associated _difficulty rating_.
-The difficulty rating of a check depends on the depth of the scene.
-The difficulty rating of an scene with depth $d$ is $4 - d$.
+   1. __Compute the check's difficulty rating:__
+   The difficulty rating of a check depends on the depth of the scene.
+   The difficulty rating of an scene with depth _d_ is _4 - d_.
+   2. __Assemble a dice pool:__
+   A dice pool is made up of one or more six-sided dice (d6s).
+   The number of dice in the dice pool depends on both the characters involved, those characters' actions, and the environment.
+   3. __Roll the dice:__
+   The dice in the dice pool are _exploding dice_.
+   That is, for every die that yields a value of `6` one additional die is added to the dice pool and rolled.
+   The values of all the rolls contribute to the result of the check.
+   4. __Determine the result of the roll:__
+   Any die that yields a value of `1`, `2`, or `3` is a _miss_.
+   Any die that yields a value of `4`, `5`, or `6` is a _hit_.
+   The result of a roll is the total number of hits.
+   5. __Compare the result of the roll to the check's difficulty rating:__
+   If the result of the players' roll exceeds or meets the check's difficulty, then they _succeed_ at the check and their characters accomplish their goal.
+   Otherwise, the players _fail_ at the check and their characters do not accomplish their goal.
 
 #### Example
-   - The climactic scene has a difficulty rating of 4.
-   - Scenes with depth one have a difficulty rating of 3.
-   - Scenes with depth two have a difficulty rating of 2.
-   - Scenes with depth three have a difficulty rating of 1.
+   Suppose the players are making a check to determine the outcome of a scene that has a depth of one.
+   The difficulty rating of the scene is _3_.
+   Suppose further that the dice pool contains five dice.
+   When rolled, these dice yield the values {`3`, `6`, `5`, `1`, `6`}.
+   Because two of the dice yielded a value of `6`, two additional dice are added to the pool.
+   When rolled, these dice yield the values {`2`,`6`}.
+   Because one of the dice yielded a value of `6`, one additional die is added to the pool.
+   When rolled, this die yields the value {`4`}.
+   In total, this roll yields the values {`3`, `6`, `5`, `1`, `6`, `2`, `6`, `4`}.
+   The result of this roll would be five hits.
+   The number of hits exceeds the difficulty rating so the players would succeed at the check.
+
+
+###### Unicode dice symbols
+&#9856;
+&#9857;
+&#9858;
+&#9859;
+&#9860;
+&#9861;
+
+<font size="6">⚀</font>
+<font size="6">⚁</font>
+<font size="6">⚂</font>
+<font size="6">⚃</font>
+<font size="6">⚄</font>
+<font size="6">⚅</font>
 
 ### Assemble a Dice Pool
 A dice pool is made up of one or more six-sided dice (d6s).
@@ -139,46 +171,6 @@ The NPC could be drawn into an argument with the PCs or even provoked into doing
 
 If instead the NPC had the the aspect "Meek", then character aspects like "Aggressive", "Demanding", or even "Angry" might be appropriate matches.
 The NPC could be simply intimidated by the PCs and coerced into doing what the PCs want them to do.
-
-### Roll the Dice
-The dice in the dice pool are _exploding dice_.
-That is, for every die that yields a value of `6` one additional die is added to the dice pool and rolled.
-The values of all the rolls contribute to the result of the check.
-
-#### Example
-Suppose the dice pool contains five dice.
-When rolled, these dice yield the values {`3`, `6`, `5`, `1`, `6`}.
-Two additional dice are added to the pool.
-When rolled, these dice yield the values {`2`,`6`}.
-One additional die is added to the pool.
-When rolled, this die yields a result of {`4`}.
-In total, this roll yields the values {`3`, `6`, `5`, `1`, `6`, `2`, `6`, `4`}.
-
-
-### Determine the Result of the Roll
-Any die that yields a value of `1`, `2`, or `3` is a _miss_.
-Any die that yields a value of `4`, `5`, or `6` is a _hit_.
-The result of a roll is the total number of hits.
-
-#### Example
-Suppose a roll yields the values {`3`, `6`, `5`, `1`, `6`, `2`, `6`, `4`}.
-The result of this roll would be five hits.
-
-###### Unicode dice symbols
-&#9856;
-&#9857;
-&#9858;
-&#9859;
-&#9860;
-&#9861;
-
-### Compare the Result of the Roll to the Check's Difficulty Rating
-If the result of the players' roll exceeds or meets the check's difficulty, then they _succeed_ at the check and their characters accomplish their goal.
-Otherwise, the players _fail_ at the check and their characters do not accomplish their goal.
-
-#### Example
-Suppose the difficulty rating of a check is three and that the result of the roll was five hits.  The players would succeed at the check.
-
 
 <!-- #### Example
 ```mermaid
