@@ -37,7 +37,7 @@ Five traits are assigned to each PC during character creation.
 Each character should be assigned one trait from each of the following categories:
    - __Occupation:__ An aspect that describes a character's profession, hobbies, or other interests.
    This aspect should be how the character answers the question "What do you do?"
-   - __Physical or Mental Characteristic:__ An aspect that describes a character's body and mind.
+   - __Physical or Mental Characteristic:__ An aspect that describes a character's body and/or mind.
    Are they a genius?
    Are they clumsy?
    Are they particularly strong?
@@ -45,8 +45,7 @@ Each character should be assigned one trait from each of the following categorie
    - __Psychological Characteristic:__ An aspect that describes a character's personality.
    These characteristics could be beneficial or detrimental; the best are a little bit of both.
    - __Relationship:__ An aspect that describes a character's connection with another character.
-   If the other character is an NPC, then they should feature prominently in the game's story.
-   If the other character is a PC, then the game's story should test the relationship somehow.
+   The game's story should test the relationship somehow between the two characters.
    - __Affiliation:__ An aspect that describes a character's connection with an organisation.
    Such an organisation should be a prominent feature of the game's story.
    Affiliations provide a nice way to paint the game's setting with broad strokes and really leverage the power of genre tropes to full advantage.
@@ -57,20 +56,24 @@ Each character should be assigned one trait from each of the following categorie
 Each adventure is subdivided into three acts:
    1. __Setup:__
       The first act is set in the future.
-      In this act the characters prepare a message to send back to their former selves.
-      This message describes a series of events that occurred many years ago.
+      In this act the characters relive a catastrophic past event and prepare a warning about that event to send back to their former selves.
+      The players first play through a [flashback scene](#flashback-scene) in which they describe what happened in the game's original timeline and how their characters were affected.
+      The players then build a [story tree](#story-tree) describing the events that led up to the climax and that, if changed, could make it easier to alter the timeline for the better.
 
    2. __Confrontation:__
       The second act is set in the present.
-      In this act, the characters receive the message sent by their future selves.
-      Their job is to ensure that the events described in the message occur.
+      In this act, the characters receive the warning sent by their future selves and try to prevent the prophesied catastrophe.
+      The players play through the [story scenes](#story-scenes) described in the story tree that they created in the previous act. Each scene culminates with a [check](#checks) which determines its outcome.
 
    3. __Resolution:__
       The third act is again set in the future.
       In this act, the characters learn the consequences of their meddling with the timeline.
+      The players play through a [flashforward scene](#flashforward-scene) in which they learn about how their actions will change the future.
 
-## Scenes
-Each scene is subdivided into three phases:
+---
+
+## Story Scenes
+Each story scene is subdivided into three phases:
    1. __Investigate:__ In this phase, the characters explore the scene.
    The players identify/assign aspects to the people/places/things that their characters encounter during this phase.
 
@@ -80,25 +83,7 @@ Each scene is subdivided into three phases:
    3. __Interpret:__ In this phase, the characters find out what happened as a result of their actions.
    The players describe the narrative consequences of the outcome of the encounter's influence roll.
 
-## Time Limits
-   - Act 2 consists off no more than eight scenes.
-   - Each scene is played out in ten minutes of real time.
-
-## Story Tree
-The players describe a sequence of significant events by creating a _story tree_.
-   - Story trees have a maximum depth of three.
-   - Each scene can have at most three child encounters.
-
-## Depth
-The climactic scene always has a depth of _d = 0_.
-The depth of other scenes is the number of edges between that scene and the climactic scene.
-
-#### Example
-Add an example!
-
 ---
-
-
 
 ## Checks
 A _check_ is used to determine the outcome of a scene.
@@ -155,6 +140,29 @@ The NPC could be drawn into an argument with the PCs or even provoked into doing
 
 If instead the NPC had the the aspect "Meek", then character aspects like "Aggressive", "Demanding", or even "Angry" might be appropriate matches.
 The NPC could be simply intimidated by the PCs and coerced into doing what the PCs want them to do.
+
+---
+## Time Limits
+   - Act 2 consists off no more than eight scenes.
+   - Each scene is played out in ten minutes of real time.
+
+## Flashback Scene
+Test
+
+## Flashforward Scene
+
+## Story Tree
+The players describe a sequence of significant events by creating a _story tree_.
+   - Story trees have a maximum depth of three.
+   - Each scene can have at most three child encounters.
+
+## Depth
+The climactic scene always has a depth of _d = 0_.
+The depth of other scenes is the number of edges between that scene and the climactic scene.
+
+#### Example
+Add an example!
+
 
 <!-- #### Example
 ```mermaid
