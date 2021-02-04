@@ -134,22 +134,6 @@ To make a check, the players will:
    The result of this roll would be five hits.
    The number of hits exceeds the difficulty rating so the players would succeed at the check.
 
-
-###### Unicode dice symbols
-&#9856;
-&#9857;
-&#9858;
-&#9859;
-&#9860;
-&#9861;
-
-<font size="6">⚀</font>
-<font size="6">⚁</font>
-<font size="6">⚂</font>
-<font size="6">⚃</font>
-<font size="6">⚄</font>
-<font size="6">⚅</font>
-
 ### Assemble a Dice Pool
 A dice pool is made up of one or more six-sided dice (d6s).
 The number of dice in the dice pool depends on both the characters involved, those characters' actions, and the environment.
