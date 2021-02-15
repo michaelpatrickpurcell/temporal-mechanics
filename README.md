@@ -88,7 +88,7 @@ Each scene is played out in ten minutes of real time.
 # Aspects
 An aspect is a word or short phrase that describes something noteworthy about a person, place, or thing in the game's story.
 Aspects can be thought of as adjectives while the objects that they describe can be thought of as nouns.
-Each aspect is _attached_ to a single
+Each aspect is _attached_ to a single object.
 
 ### Matching Aspects
 Characters and environments both have _aspects_.
