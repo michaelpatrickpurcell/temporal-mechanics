@@ -85,13 +85,13 @@ Each scene is played out in ten minutes of real time.
 
 ---
 
-# Aspects
+## Aspects
 An aspect is a word or short phrase that describes something noteworthy about a person, place, or thing in the game's story.
 Aspects can be thought of as adjectives while the objects that they describe can be thought of as nouns.
 Each aspect is _attached_ to a single object.
 
-### Matching Aspects
-Characters and environments both have _aspects_.
+## Matching Aspects
+Characters and environments both have [aspects](#aspects).
 Character aspects are generally created before the game starts and describe who the characters are and what they can do.
 Environment aspects are generally created during the game and describe the people, places, and things that the characters encounter.
 A pair of _matching aspects_ is a set of two aspects, one character aspect and one environment aspect, that together allow the characters manipulate a scene to their advantage.
