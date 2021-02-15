@@ -5,19 +5,66 @@ When things go awry with the timeline, they call you!
 
 ---
 
-## Characters
-There are two kinds of characters.
-   1. __Player Characters (PCs):__
-      The PCs are the heroes of the story.
-      Each PC is controlled by a single player throughout the game.
-   2. __Non-Player Characters (NPCs):__
-      The NPCs are everybody else.
-      NPCs can be controlled by any of the players as the need arises during the game.
+## Acts
+Each adventure is subdivided into three acts:
+   1. __Setup:__
+      The first act is set in the future.
+      In this act the characters relive a catastrophic past event and prepare a warning about that event to send back to their former selves.
+      The players first play through a [flashback scene](#flashback-scene) in which they describe what happened in the game's original timeline and how their characters were affected.
+      The players then build a [story tree](#story-tree) describing the events that led up to the climax and that, if changed, could make it easier to alter the timeline for the better.
+   2. __Confrontation:__
+      The second act is set in the present.
+      In this act, the characters receive the warning sent by their future selves and try to prevent the prophesied catastrophe.
+      The players play through the [story scenes](#story-scenes) described in the story tree that they created in the previous act. Each story scene culminates with a [check](#checks) to determine its outcome.
+   3. __Resolution:__
+      The third act is again set in the future.
+      In this act, the characters learn the consequences of their meddling with the timeline.
+      The players play through a [flashforward scene](#flashforward-scene) in which they learn about how their actions will change the future.
+
+---
+
+## Story Scenes
+During story scenes the characters revisit the events that, in the original timeline, led to the catastrophe described in the [flashback scene](#flashback-scene).
+Each story scene is subdivided into three phases:
+   1. __Investigate:__
+      In this phase, the characters explore the scene.
+      The players identify/assign [aspects](#aspects) to the people/places/things that their characters encounter during this phase.
+   2. __Influence:__
+      In this phase, the characters attempt to alter the timeline.
+      The players make a [check](#checks) to determine the outcome of the scene.
+   3. __Interpret:__
+      In this phase, the characters find out what happened as a result of their actions.
+      The players describe the narrative consequences of the outcome of the check made to determine the outcome of the scene.
+
+## Flashback Scene
+Test
+
+## Flashforward Scene
+Test
+
+## Time Limits
+Each scene is played out in ten minutes of real time.
+
+---
+
+## Aspects
+An _aspect_ is a word or short phrase that describes something noteworthy about a person, place, or thing in the game's story.
+Aspects can be thought of as adjectives while the objects that they describe can be thought of as nouns.
+Each aspect is _attached_ to a single object.
+There are two kinds of aspects:
+   1. __Character Aspects:__
+      These are aspects that are attached to a player character.
+      Five special character aspects are attached to each player character when they are created.
+      These aspects are called [traits](#traits).
+      Other character aspects are generally discovered/created during the investigate phase of [story scenes](#story-scenes).
+   2. __Environment Aspects:__
+      These are aspects that are attached to anything that is not a player character.
+      Environment aspects are generally discovered/created during the investigate phase of [story scenes](#story-scenes).
 
 ## Traits
 Characters are described by a set of _traits_.
-A trait is simply an [aspect](#aspects) that is assigned to a player character.
-Five traits are assigned to each PC during character creation.
+A trait is simply an [aspect](#aspects) that is assigned to a character.
+Five traits are assigned to each character during character creation.
 Each character should be assigned one trait from each of the following categories:
    - __Occupation:__
      An aspect that describes a character's profession, hobbies, or other interests.
@@ -42,59 +89,9 @@ Each character should be assigned one trait from each of the following categorie
      Affiliations tend to be much more transactional than relationships.
      This aspect implies both a set of benefits that the character enjoys and a set obligations that the character incurs as a result of their affiliation.
 
----
-
-## Acts
-Each adventure is subdivided into three acts:
-   1. __Setup:__
-      The first act is set in the future.
-      In this act the characters relive a catastrophic past event and prepare a warning about that event to send back to their former selves.
-      The players first play through a [flashback scene](#flashback-scene) in which they describe what happened in the game's original timeline and how their characters were affected.
-      The players then build a [story tree](#story-tree) describing the events that led up to the climax and that, if changed, could make it easier to alter the timeline for the better.
-   2. __Confrontation:__
-      The second act is set in the present.
-      In this act, the characters receive the warning sent by their future selves and try to prevent the prophesied catastrophe.
-      The players play through the [story scenes](#story-scenes) described in the story tree that they created in the previous act. Each story scene culminates with a [check](#checks) to determine its outcome.
-   3. __Resolution:__
-      The third act is again set in the future.
-      In this act, the characters learn the consequences of their meddling with the timeline.
-      The players play through a [flashforward scene](#flashforward-scene) in which they learn about how their actions will change the future.
-
----
-
-## Story Scenes
-Each story scene is subdivided into three phases:
-   1. __Investigate:__
-      In this phase, the characters explore the scene.
-      The players identify/assign aspects to the people/places/things that their characters encounter during this phase.
-   2. __Influence:__
-      In this phase, the characters attempt to alter the timeline.
-      The players make a [check](#checks) to determine the outcome of the scene.
-   3. __Interpret:__
-      In this phase, the characters find out what happened as a result of their actions.
-      The players describe the narrative consequences of the outcome of the encounter's influence roll.
-
-## Flashback Scene
-Test
-
-## Flashforward Scene
-Test
-
-## Time Limits
-Each scene is played out in ten minutes of real time.
-
----
-
-# Aspects
-An aspect is a word or short phrase that describes something noteworthy about a person, place, or thing in the game's story.
-Aspects can be thought of as adjectives while the objects that they describe can be thought of as nouns.
-Each aspect is _attached_ to a single object.
-
-### Matching Aspects
-Characters and environments both have _aspects_.
-Character aspects are generally created before the game starts and describe who the characters are and what they can do.
-Environment aspects are generally created during the game and describe the people, places, and things that the characters encounter.
-A pair of _matching aspects_ is a set of two aspects, one character aspect and one environment aspect, that together allow the characters manipulate a scene to their advantage.
+## Matching Aspects
+A pair of _matching aspects_ is a set of two [aspects](#aspects), one character aspect and one environment aspect, that together allow the characters manipulate a scene to their advantage.
+Pairs of matching aspects are used to determine the size of the dice pool when making a [check](#checks).
 
 #### Example
 Suppose an NPC who needs to be prevented from catching a flight has the aspect "Argumentative".
@@ -157,27 +154,29 @@ To create a story tree, the players should:
    2. __Create additional scenes__:
       To create additional scenes, the players should repeatedly:
          1. __Choose an existing scene__:
-            The chosen scene can be any scene with depth _d < 3_.
+            The chosen scene can be any scene with [depth](#depth) _d < 3_.
          2. __Create a new scene:__
             The outcome of the new scene should directly affect the characters' ability to influence the outcome of the existing scene.
             The new scene will be _immediately upstream_ of the existing scene and the two scenes are connected via an _edge_.
-
-## Depth
-The climactic scene always has a depth of _d = 0_.
-The depth of other scenes is the number of edges between that scene and the climactic scene.
+            As such, the [depth](#depth) of the new scene will be one greater than that of the existing scene.
 
 #### Example
 ```mermaid
 graph BT;
-  n0(Destroy the Death Star: 4);
-  n0 ---- n1(Engage the enemy fighters: 3);
-  n0 ----- n2(Find a critical weakness: 3);
-           n2 --- n4(Rescue Princess Leia: 2);
-           n2 ---- n5(Deliver the schematics to the rebels: 2);
-                   n5 ---- n7(Find Obi-Wan Kenobi: 1);
-  n0 --- n3(Use The Force: 3);
-         n3 ------- n6(Train to become a Jedi: 2);
+  n0(Destroy the Death Star);
+  n0 ---- n1(Engage the enemy fighters);
+  n0 ----- n2(Find a critical weakness);
+           n2 --- n4(Rescue Princess Leia);
+           n2 ---- n5(Deliver the schematics to the rebels);
+                   n5 ---- n7(Find Obi-Wan Kenobi);
+  n0 --- n3(Use The Force);
+         n3 ------- n6(Train to become a Jedi);
 ```
+
+## Depth
+The _depth_ of a scene describes how far upstream it is from the climactic scene.
+The climactic scene always has a depth of _d = 0_.
+The depth of other scenes is the number of edges between that scene and the climactic scene.
 
 ---
 
