@@ -6,7 +6,7 @@ When things go awry with the timeline, they call you!
 ---
 
 ## Acts
-Each adventure is subdivided into three acts:
+Each game's story is subdivided into three acts:
    1. __Setup:__
       The first act is set in the future.
       In this act the characters relive a catastrophic past event and prepare a warning about that event to send back to their former selves.
@@ -36,14 +36,36 @@ Each story scene is subdivided into three phases:
       In this phase, the characters find out what happened as a result of their actions.
       The players describe the narrative consequences of the outcome of the check made to determine the outcome of the scene.
 
+## Creating a Story Scene
+To create a story scene, the players simply describe what their characters hope to accomplish during that scene.
+This should be a proactive goal.
+That is, it should describe something that the characters want to do rather than something that they hope to prevent from occurring.
+This is particularly important when creating the climactic scene.
+While it is easy to describe the characters' goal in the climactic scene to be to prevent the catastrophe described in the [flashback scene](#flashback-scene), it is better for the players to describe how the characters intend to do so.
+
 ## Flashback Scene
-Test
+During the flashback scene the characters relive a catastrophic past event.
+The players establish important details about the game's story including:
+   - __The Antagonist:__
+     The main foil for the player characters.
+     At least three [aspects](#aspects) should be attached to the antagonist during the flashback scene.
+     These aspects should be similar to [traits](#traits) in that they describe who the antagonist is, what they can do, and how they are connected to the events of the game's story.
+   - __The Setting__:
+     A description of the time(s) and place(s) in which the game's story will be set.
+   - __The Catastrophe:__
+     The fateful event that the characters will want to prevent when they try to alter the timeline.
+     This is the event around which the rest of the game's story will revolve.
+     The players should create a situation that their characters will be able to affect, but doing so will be both difficult and dangerous.
 
 ## Flashforward Scene
-Test
+During the flashforward scene, the characters learn the consequences of their meddling with the timeline.
+If the players succeeded at the check to determine the outcome of the climactic scene, then this should be a triumphant celebration of their success.
+If they failed, however, then this is should be a somber reflection on the consequences of their failure.
 
 ## Time Limits
 Each scene is played out in ten minutes of real time.
+Each [story tree](#story-tree) consists of no more than eight [story scenes](#story-scenes).
+
 
 ---
 
@@ -106,28 +128,24 @@ The NPC could be simply intimidated by the PCs and coerced into doing what the P
 ## Checks
 A _check_ is used to determine the outcome of a scene.
 To make a check, the players will:
-   1. __Compute the check's difficulty rating:__
-      The difficulty rating of a check depends on the [depth](#depth) of the current scene.
-      The difficulty rating of an scene with depth _d_ is _4 - d_.
-   2. __Assemble a dice pool:__
+   1. __Assemble a dice pool:__
       A dice pool is made up of one or more six-sided dice (d6s).
       One die is added to the dice pool for each pair of [matching aspects](#matching-aspects) that the players discover during the investigation phase of the scene.
       In addition, one _reward die_ is added to the dice pool for each scene immediately upstream of the current scene that was resolved successfully.
-   3. __Roll the dice:__
+   2. __Roll the dice:__
       The dice in the dice pool are _exploding dice_.
       That is, for every die that yields a value of `6` one additional die is added to the dice pool and rolled.
       The values of all the rolls contribute to the result of the check.
-   4. __Determine the result of the roll:__
+   3. __Determine the result of the roll:__
       Any die that yields a value of `1`, `2`, or `3` is a _miss_.
       Any die that yields a value of `4`, `5`, or `6` is a _hit_.
       The result of a roll is the total number of hits.
-   5. __Compare the result of the roll to the check's difficulty rating:__
+   4. __Compare the result of the roll to the check's difficulty rating:__
       If the result of the players' roll exceeds or meets the check's difficulty, then they _succeed_ at the check and their characters accomplish their goal.
       Otherwise, the players _fail_ at the check and their characters do not accomplish their goal.
 
 #### Example
-   The players are making a check to determine the outcome of a scene that has a depth of _d = 1_.
-   The difficulty rating of the scene is _3_.
+   The players are making a check to determine the outcome of a scene that has a difficulty rating of _d = 3_.
    The players discovered three pairs of matching aspects during the investigate phase of scene and earned two reward dice in the scenes immediately upstream of the current scene.
    Therefore, the dice pool consists of five dice.
    When rolled, these dice yield the values {`3`, `6`, `5`, `1`, `6`}.
@@ -143,40 +161,36 @@ To make a check, the players will:
 
 ## Story Tree
 The players describe a sequence of significant events by creating a _story tree_.
-A story tree is a collection of scenes arranged in a tree-like structure.
-Every story tree has a climactic scene and one or more other scenes.
-These other scenes are _upstream_ of the climactic scene.
+A story tree is a collection of [story scenes](#story-scenes) that are arranged in a tree-like structure.
+Every story tree has a special scene called the _climactic scene_.
+All of the other scenes in the story tree are _upstream_ of the climactic scene.
 That is, they occur earlier in the timeline of the game's story than does the climactic scene.
 
 To create a story tree, the players should:
-   1.  __Create a climactic scene:__
+   1.  __Create the climactic scene:__
       This scene should be defined by the actions that the characters will take to try avert the catastrophe described in the [flashback scene](#flashback-scene).
+      The difficulty rating of the climactic scene is always _d = 4_.
    2. __Create additional scenes__:
       To create additional scenes, the players should repeatedly:
-         1. __Choose an existing scene__:
-            The chosen scene can be any scene with [depth](#depth) _d < 3_.
-         2. __Create a new scene:__
+         1. __Choose an existing story scene__:
+            The existing scene can be any story scene with difficulty _d > 1_.
+         2. __Create a new story scene:__
             The outcome of the new scene should directly affect the characters' ability to influence the outcome of the existing scene.
-            The new scene will be _immediately upstream_ of the existing scene and the two scenes are connected via an _edge_.
-            As such, the [depth](#depth) of the new scene will be one greater than that of the existing scene.
+            The new scene will be _immediately upstream_ of the existing scene.
+            The difficulty rating of the new scene will be one less than that of the existing scene.
 
 #### Example
 ```mermaid
 graph BT;
-  n0(Destroy the Death Star);
-  n0 ---- n1(Engage the enemy fighters);
-  n0 ----- n2(Find a critical weakness);
-           n2 --- n4(Rescue Princess Leia);
-           n2 ---- n5(Deliver the schematics to the rebels);
-                   n5 ---- n7(Find Obi-Wan Kenobi);
-  n0 --- n3(Use The Force);
-         n3 ------- n6(Train to become a Jedi);
+  n0("Destroy the Death Star (4)");
+  n0 ---- n1("Engage the enemy fighters (3)");
+  n0 ----- n2("Find a critical weakness (3)");
+           n2 --- n4("Rescue Princess Leia (2)");
+           n2 ---- n5("Deliver the schematics to the rebels (2)");
+                   n5 ---- n7("Find Obi-Wan Kenobi (1)");
+  n0 --- n3("Use The Force (3)");
+         n3 ------- n6("Train to become a Jedi (2)");
 ```
-
-## Depth
-The _depth_ of a scene describes how far upstream it is from the climactic scene.
-The climactic scene always has a depth of _d = 0_.
-The depth of other scenes is the number of edges between that scene and the climactic scene.
 
 ---
 
