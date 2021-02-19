@@ -36,8 +36,7 @@ Each story scene is subdivided into three phases:
       In this phase, the characters find out what happened as a result of their actions.
       The players describe the narrative consequences of the outcome of the check made to determine the outcome of the scene.
 
-## Creating a Story Scene
-To create a story scene, the players simply describe what their characters hope to accomplish during that scene.
+To create a story scene, the players describe what their characters hope to accomplish during that scene.
 This should be a proactive goal.
 That is, it should describe something that the characters want to do rather than something that they hope to prevent from occurring.
 This is particularly important when creating the climactic scene.
@@ -62,10 +61,57 @@ During the flashforward scene, the characters learn the consequences of their me
 If the players succeeded at the check to determine the outcome of the climactic scene, then this should be a triumphant celebration of their success.
 If they failed, however, then this is should be a somber reflection on the consequences of their failure.
 
-## Time Limits
-Each scene is played out in ten minutes of real time.
-Each [story tree](#story-tree) consists of no more than eight [story scenes](#story-scenes).
+---
 
+## Story Tree
+The players describe a sequence of significant events by creating a _story tree_.
+A story tree is a collection of [story scenes](#story-scenes) that are arranged in a tree-like structure.
+Every story tree has a special scene called the _climactic scene_.
+All of the other scenes in the story tree are _upstream_ of the climactic scene.
+That is, they occur earlier in the timeline of the game's story than does the climactic scene.
+
+To create a story tree, the players should:
+   1.  __Create the climactic scene:__
+      This scene should be defined by the actions that the characters will take to try avert the catastrophe described in the [flashback scene](#flashback-scene).
+      The difficulty rating of the climactic scene is always _d = 4_.
+   2. __Create additional scenes__:
+      To create additional scenes, the players should repeatedly:
+      <ol type="a">
+        <li>
+           <b>Choose an existing story scene:</b>
+           The existing scene can be any story scene with difficulty <i>d > 1</i>.
+        </li>
+        <li>
+           <b>Create a new story scene:</b>
+           The outcome of the new scene should directly affect the characters' ability to influence the outcome of the existing scene.
+           The new scene will be <i>immediately upstream</i> of the existing scene.
+           The difficulty rating of the new scene will be one less than that of the existing scene.
+         </li>
+      </ol>
+
+<!-- #### Example
+```mermaid
+graph BT;
+  n0("Destroy the Death Star (4)");
+  n0 ---- n1("Engage the enemy fighters (3)");
+  n0 ----- n2("Find a critical weakness (3)");
+           n2 --- n4("Rescue Princess Leia (2)");
+           n2 ---- n5("Deliver the schematics to the rebels (2)");
+                   n5 ---- n7("Find Obi-Wan Kenobi (1)");
+  n0 --- n3("Use The Force (3)");
+         n3 ------- n6("Train to become a Jedi (2)");
+``` -->
+
+---
+
+## Time Limits
+Most groups should be able to play a complete game in no more than three hours.
+The game's story should be tightly focused on the climactic scene and the scenes that led to that fateful event.
+To encourage this kind of storytelling, the players should adhere to the following guiding principles:
+ - __Short Scenes:__
+   Each scene should be played out in no more than ten minutes of real time.
+ - __Simple Structures:__
+   Each [story tree](#story-tree) should consist of no more than eight [story scenes](#story-scenes) (including the climactic scene).
 
 ---
 
@@ -82,6 +128,18 @@ There are two kinds of aspects:
    2. __Environment Aspects:__
       These are aspects that are attached to anything that is not a player character.
       Environment aspects are generally discovered/created during the investigate phase of [story scenes](#story-scenes).
+
+### Matching Aspects
+A pair of _matching aspects_ is a set of two [aspects](#aspects), one character aspect and one environment aspect, that together allow the characters manipulate a scene to their advantage.
+Pairs of matching aspects are used to determine the size of the dice pool when making a [check](#checks).
+
+#### Example
+Suppose an NPC who needs to be prevented from catching a flight has the aspect "Argumentative".
+In this case, "Argumentative" itself might be the best match that could appear in the characters' aspect list.
+The NPC could be drawn into an argument with the PCs or even provoked into doing something that would get them kicked off of the flight.
+
+If instead the NPC had the the aspect "Meek", then character aspects like "Aggressive", "Demanding", or even simply "Angry" might be appropriate matches.
+The NPC could be simply intimidated by the PCs and coerced into doing what the PCs want them to do.
 
 ## Traits
 Characters are described by a set of _traits_.
@@ -110,18 +168,6 @@ Each character should be assigned one trait from each of the following categorie
      Such an organisation should be a prominent feature of the game's story.
      Affiliations tend to be much more transactional than relationships.
      This aspect implies both a set of benefits that the character enjoys and a set obligations that the character incurs as a result of their affiliation.
-
-## Matching Aspects
-A pair of _matching aspects_ is a set of two [aspects](#aspects), one character aspect and one environment aspect, that together allow the characters manipulate a scene to their advantage.
-Pairs of matching aspects are used to determine the size of the dice pool when making a [check](#checks).
-
-#### Example
-Suppose an NPC who needs to be prevented from catching a flight has the aspect "Argumentative".
-In this case, "Argumentative" itself might be the best match that could appear in the characters' aspect list.
-The NPC could be drawn into an argument with the PCs or even provoked into doing something that would get them kicked off of the flight.
-
-If instead the NPC had the the aspect "Meek", then character aspects like "Aggressive", "Demanding", or even simply "Angry" might be appropriate matches.
-The NPC could be simply intimidated by the PCs and coerced into doing what the PCs want them to do.
 
 ---
 
@@ -156,41 +202,6 @@ To make a check, the players will:
    In total, this roll yields the values {`3`, `6`, `5`, `1`, `6`, `2`, `6`, `4`}.
    The result of this roll would be five hits.
    The number of hits exceeds the difficulty rating so the players would succeed at the check.   
-
----
-
-## Story Tree
-The players describe a sequence of significant events by creating a _story tree_.
-A story tree is a collection of [story scenes](#story-scenes) that are arranged in a tree-like structure.
-Every story tree has a special scene called the _climactic scene_.
-All of the other scenes in the story tree are _upstream_ of the climactic scene.
-That is, they occur earlier in the timeline of the game's story than does the climactic scene.
-
-To create a story tree, the players should:
-   1.  __Create the climactic scene:__
-      This scene should be defined by the actions that the characters will take to try avert the catastrophe described in the [flashback scene](#flashback-scene).
-      The difficulty rating of the climactic scene is always _d = 4_.
-   2. __Create additional scenes__:
-      To create additional scenes, the players should repeatedly:
-         1. __Choose an existing story scene__:
-            The existing scene can be any story scene with difficulty _d > 1_.
-         2. __Create a new story scene:__
-            The outcome of the new scene should directly affect the characters' ability to influence the outcome of the existing scene.
-            The new scene will be _immediately upstream_ of the existing scene.
-            The difficulty rating of the new scene will be one less than that of the existing scene.
-
-#### Example
-```mermaid
-graph BT;
-  n0("Destroy the Death Star (4)");
-  n0 ---- n1("Engage the enemy fighters (3)");
-  n0 ----- n2("Find a critical weakness (3)");
-           n2 --- n4("Rescue Princess Leia (2)");
-           n2 ---- n5("Deliver the schematics to the rebels (2)");
-                   n5 ---- n7("Find Obi-Wan Kenobi (1)");
-  n0 --- n3("Use The Force (3)");
-         n3 ------- n6("Train to become a Jedi (2)");
-```
 
 ---
 
