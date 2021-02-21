@@ -221,7 +221,7 @@ Any good work of science fiction needs a modicum of technobabble to grease the n
 
 ---
 
-## Playtesters
+## Acknowledgements
 Thanks to everyone who helped refine the design of Temporal Mechanics.
    - Dannielle Harden
    - Jo Stephenson
