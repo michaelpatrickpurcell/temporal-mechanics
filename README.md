@@ -1,7 +1,6 @@
 # Temporal Mechanics
 
-When things go awry with someone's car, they call their mechanic.  
-When things go awry with the timeline, they call you!
+Temporal Mechanics is a role playing game that encourages players to work together to create stories about every-day heroes who travel through time and change the course of history.
 
 ---
 
@@ -108,7 +107,7 @@ Most groups should be able to play a complete game in no more than three hours.
 The game's story should be tightly focused on the climactic scene and the scenes that led to that fateful event.
 To encourage this kind of storytelling, the players should adhere to the following guiding principles:
  - __Short Scenes:__
-   Each scene should be played out in no more than ten minutes of real time.
+   Each scene should be played out in no more than eight minutes of real time.
  - __Simple Structures:__
    Each [story tree](#story-tree) should consist of no more than eight [story scenes](#story-scenes) (including the climactic scene).
 
@@ -233,3 +232,9 @@ Thanks to everyone who helped refine the design of Temporal Mechanics.
    - Michael Cromer
    - Luke Purcell
    - Kira Purcell
+
+---
+
+## Tagline(s)
+When things go awry with someone's car, they call their mechanic.  
+When things go awry with the timeline, they call you!
