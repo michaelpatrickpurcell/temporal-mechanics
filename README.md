@@ -83,7 +83,6 @@ To create a story tree, the players should:
         </li>
         <li>
            <b>Create a new story scene:</b>
-           The outcome of the new scene should directly affect the characters' ability to influence the outcome of the existing scene.
            The new scene will be <i>immediately upstream</i> of the existing scene.
            The difficulty rating of the new scene will be one less than that of the existing scene.
          </li>
