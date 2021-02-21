@@ -218,3 +218,18 @@ Any good work of science fiction needs a modicum of technobabble to grease the n
       Altering the course of history is difficult and fraught with peril.
       The more significant an event is the more difficult it is to affect and the more serious the consequences for failure.
       This property is known as _temporal inertia_.  
+
+---
+
+## Playtesters
+Thanks to everyone who helped refine the design of Temporal Mechanics.
+   - Dannielle Harden
+   - Jo Stephenson
+   - Scott Joblin
+   - Sarah Hewat
+   - Brett Witty
+   - Farzana Choudhury
+   - Keydan Bruce
+   - Michael Cromer
+   - Luke Purcell
+   - Kira Purcell
